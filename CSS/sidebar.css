@@ -1,0 +1,64 @@
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.sidebar-container {
+    position: fixed;
+    left: 0;
+    width: var(--sidebar-width);
+    top: var(--header-height);
+    bottom: 0;
+    z-index: 10;
+    padding: 0 4px;
+    background-color: white;
+    display: block;
+}
+
+.sidebar-container-element {
+    position: relative;
+    width: 100%;
+    height: 44px;
+    padding: 16px 0 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-button-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sidebar-image-element {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateY(-5px);
+    height: auto;
+}
+
+.sidebar-text-element {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%) translateY(1px);
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.home-button-image {
+    width: 21px;
+}
+
+.subscriptions-button-image {
+    width: 22px;
+}
+
+.you-button-image {
+    width: 27px;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/

@@ -1,0 +1,214 @@
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.header-bar-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: var(--header-height);
+    z-index: 10;
+    padding: 0 16px;
+    background-color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+}
+
+.main-header-container-element {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.header-left-container {
+    background-color: white;
+}
+
+.header-middle-container {
+    background-color: white;
+    flex: 0 1 732px;
+    justify-content: center;
+}
+
+.header-right-container {
+    min-width: 225px;
+    background-color: white;
+    justify-content: flex-end;
+}
+
+.sub-header-container-element {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-header-button-element {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sub-header-image-element {
+    position: absolute;
+    height: auto;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.expand-sidebar-container {
+    width: 40px;
+}
+
+.expand-sidebar-button {
+    width: 100%;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.expand-sidebar-image {
+    width: 34px;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.youtube-button-container {
+    width: 120px;
+}
+
+.youtube-button-button {
+    width: 100%;
+    height: 100%;
+}
+
+.youtube-button-image {
+    width: 90px;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.search-bar-outline {
+    height: 38px;
+}
+
+.search-bar-outline-left {
+    width: 300px;
+    margin-left: 70px;
+    padding: 0 4px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 40px 0 0 40px;
+    border-right: none;
+    box-shadow: inset 0 1px 2px #eee;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.search-bar-input {
+    width: 100%;
+    border: none;
+    font-family: Roboto, Noto, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+}
+
+.search-bar-outline-right {
+    width: 62px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 0 40px 40px 0;
+}
+
+.search-bar-button {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.03;
+    border-radius: 0 40px 40px 0;
+}
+
+.search-bar-image {
+    width: 25px;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.voice-search-container {
+    width: 40px;
+    margin-left: 16px;
+}
+
+.voice-search-button {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    opacity: 0.06;
+    border-radius: 100%;
+}
+
+.voice-search-image {
+    width: 18px;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.channel-container {
+    width: 32px;
+    margin: 0 8px;
+    background-color: white;
+}
+
+.channel-button {
+    width: 100%;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.channel-image {
+    width: 32px;
+    border-radius: 100%;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.notifications-container {
+    width: 40px;
+    margin-right: 8px;
+    background-color: white;
+}
+
+.notifications-button {
+    width: 100%;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.notifications-image {
+    width: 26px;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
+
+.create-container {
+    width: 40px;
+    margin-right: 8px;
+    background-color: white;
+}
+
+.create-button {
+    width: 100%;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.create-image {
+    width: 22px;
+}
+
+/*@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@-@@@@@@@@@@@*/
