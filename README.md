@@ -1,6 +1,6 @@
 # YouTube-Front-End-Recreation
 
-Utillizes HTML/CSS to recreate the front-end home page of YouTube.
+Utilizes HTML/CSS to recreate the front-end home page of YouTube.
 
   - Closely replicates the spacing and size of elements
   - Has most button hover functionality
